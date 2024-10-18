@@ -37,15 +37,18 @@ gh repo create
 
 Depois do repositório remoto criado, você pode atualizado de 2 formas:
 
-1. Clonando o repo localmente e fazendo as alterações nele no zero.
-2. Adicionando o repo a um projeto já existente localmente.
+####1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
+####2. Adicionando o repo a um projeto já existente localmente.
 
-1. Copiar a url do repo.
+###1. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
+###2. Executar o comando de ```git clone``` a partir da URL copiada.
+
 ```
 git clone https://github.com/jlsilva01/repo-teste.git
+```
 Cloning into 'repo-teste'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
