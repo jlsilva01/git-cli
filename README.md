@@ -35,7 +35,7 @@ gh repo create
 ? Clone the new repository locally? No
 ```
 
-Depois do repositório remoto criado, você pode atualizado de 2 formas:
+Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas formas:
 
 #### 1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 #### 2. Adicionando o repositório remoto a um projeto/paste local já existente.
