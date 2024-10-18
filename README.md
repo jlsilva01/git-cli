@@ -37,17 +37,20 @@ gh repo create
 
 Depois do repositório remoto criado, você pode atualizado de 2 formas:
 
-####1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
-####2. Adicionando o repo a um projeto já existente localmente.
+#### 1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
+#### 2. Adicionando o repositório remoto a um projeto/paste local já existente.
 
-###1. Copiar a URL do repositório remoto.
+## Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
+
+#### 1. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-###2. Executar o comando de ```git clone``` a partir da URL copiada.
+#### 2. Executar o comando de ```git clone``` a partir da URL copiada.
 
 ```
 git clone https://github.com/jlsilva01/repo-teste.git
+```
 ```
 Cloning into 'repo-teste'...
 remote: Enumerating objects: 3, done.
@@ -55,6 +58,7 @@ remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (3/3), done.
 ```
+#### 3. Entrar no repositório local e validar o status da branch atual.
 ```
 cd repo-teste
 git status
@@ -63,7 +67,10 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 ```
-2. Adicionando um projeto/pasta local já existente
+
+## Adicionando o repositório remoto a um projeto/paste local já existente.
+
+#### 1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
 
   ```
 git init
@@ -73,6 +80,8 @@ git branch -M main
 ```
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
+
+#### 2. Adicionar o repositório remoto a pasta local já inicializada.
 
 ```
 git remote add origin https://github.com/jlsilva01/teste.git
