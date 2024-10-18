@@ -2,7 +2,7 @@
 
 Para criar um repositório no Github através do Git CLI, basta seguir os passos abaixo:
 
-``` bash
+```bash
 gh auth login
 ```
 ```
@@ -19,6 +19,7 @@ Press Enter to open github.com in your browser...
 ✓ Logged in as jlsilva01
 ! You were already logged in to this account
 ```
+
 ```bash
 gh repo create
 ```
@@ -48,7 +49,7 @@ Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas 
 
 2. Executar o comando de ```git clone``` a partir da URL copiada.
 
-```
+```bash
 git clone https://github.com/jlsilva01/repo-teste.git
 ```
 ```
@@ -59,7 +60,8 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (3/3), done.
 ```
 3. Entrar no repositório local e validar o status da branch atual.
-``` bash
+
+```bash
 cd repo-teste
 git status
 ```
@@ -74,7 +76,7 @@ nothing to commit, working tree clean
 
 1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
 
-  ```
+```bash
 git init
 git add .
 git commit -m "build: setup inicial do projeto"
@@ -86,11 +88,12 @@ git branch -M main
 
 3. Adicionar o repositório remoto a pasta local já inicializada.
 
-```
+```bash
 git remote add origin https://github.com/jlsilva01/teste.git
 ```
 
 4. Efetuar o upload dos arquivos locais para o repositório remoto
-``` bash
+
+```bash
 git push origin main
 ```
