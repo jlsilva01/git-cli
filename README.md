@@ -40,7 +40,6 @@ Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas 
 #### 1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 #### 2. Adicionando o repositório remoto a um projeto/paste local já existente.
 <br>
-<br>
 
 ## Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 
