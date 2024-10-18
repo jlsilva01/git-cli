@@ -42,11 +42,11 @@ Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas 
 
 ## Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 
-#### 1. Copiar a URL do repositório remoto.
+1. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-#### 2. Executar o comando de ```git clone``` a partir da URL copiada.
+2. Executar o comando de ```git clone``` a partir da URL copiada.
 
 ```
 git clone https://github.com/jlsilva01/repo-teste.git
@@ -58,7 +58,7 @@ remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (3/3), done.
 ```
-#### 3. Entrar no repositório local e validar o status da branch atual.
+3. Entrar no repositório local e validar o status da branch atual.
 ```
 cd repo-teste
 git status
@@ -70,7 +70,7 @@ nothing to commit, working tree clean
 
 ## Adicionando o repositório remoto a um projeto/paste local já existente.
 
-#### 1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
+1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
 
   ```
 git init
@@ -81,7 +81,7 @@ git branch -M main
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-#### 2. Adicionar o repositório remoto a pasta local já inicializada.
+2. Adicionar o repositório remoto a pasta local já inicializada.
 
 ```
 git remote add origin https://github.com/jlsilva01/teste.git
