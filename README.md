@@ -80,12 +80,17 @@ git add .
 git commit -m "build: setup inicial do projeto"
 git branch -M main
 ```
+2. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-2. Adicionar o repositório remoto a pasta local já inicializada.
+3. Adicionar o repositório remoto a pasta local já inicializada.
 
 ```
 git remote add origin https://github.com/jlsilva01/teste.git
+```
+
+4. Efetuar o upload dos arquivos locais para o repositório remoto
+``` bash
 git push origin main
 ```
