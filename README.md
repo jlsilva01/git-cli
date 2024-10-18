@@ -2,7 +2,7 @@
 
 Para criar um repositório no Github através do Git CLI, basta seguir os passos abaixo:
 
-``` bash copy
+``` bash
 gh auth login
 ```
 ```
@@ -19,9 +19,10 @@ Press Enter to open github.com in your browser...
 ✓ Logged in as jlsilva01
 ! You were already logged in to this account
 ```
-```
+```bash
 gh repo create
-
+```
+```
 ? What would you like to do? Create a new repository on GitHub from scratch
 ? Repository name repo-teste
 
