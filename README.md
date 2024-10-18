@@ -59,9 +59,11 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (3/3), done.
 ```
 3. Entrar no repositório local e validar o status da branch atual.
-```
+``` bash
 cd repo-teste
 git status
+```
+```
 On branch main
 Your branch is up to date with 'origin/main'.
 
