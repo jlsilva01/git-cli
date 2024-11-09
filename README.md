@@ -7,7 +7,7 @@ gh auth login
 ```
 <table style="font-size=10px">
   <tr>
-    <td>
+    <td style="font-size=10px">
 ? What account do you want to log into? GitHub.com<br>
 ? What is your preferred protocol for Git operations on this host? HTTPS<br>
 ? Authenticate Git with your GitHub credentials? Yes<br>
