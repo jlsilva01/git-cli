@@ -23,21 +23,26 @@ Press Enter to open github.com in your browser...<br>
     </td>
   </tr>
 </table>
+
 ```bash
 gh repo create
 ```
-```
-? What would you like to do? Create a new repository on GitHub from scratch
-? Repository name repo-teste
-
-? Repository name repo-teste
-? Description
-? Visibility Public
-? Would you like to add a README file? Yes
-? Would you like to add a .gitignore? No
-? This will create "repo-teste" as a public repository on GitHub. Continue? Yes
-? Clone the new repository locally? No
-```
+<table>
+  <tr>
+    <td>
+? What would you like to do? Create a new repository on GitHub from scratch<br>
+? Repository name repo-teste<br>
+<br>
+? Repository name repo-teste<br>
+? Description<br>
+? Visibility Public<br>
+? Would you like to add a README file? Yes<br>
+? Would you like to add a .gitignore? No<br>
+? This will create "repo-teste" as a public repository on GitHub. Continue? Yes<br>
+? Clone the new repository locally? No<br>
+    </td>
+  </tr>
+</table>
 
 Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas formas:
 
@@ -55,25 +60,34 @@ Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas 
 ```bash
 git clone https://github.com/jlsilva01/repo-teste.git
 ```
-```
-Cloning into 'repo-teste'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-Receiving objects: 100% (3/3), done.
-```
+<table>
+  <tr>
+    <td>
+Cloning into 'repo-teste'...<br>
+remote: Enumerating objects: 3, done.<br>
+remote: Counting objects: 100% (3/3), done.<br>
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)<br>
+Receiving objects: 100% (3/3), done.<br>
+    </td>
+  </tr>
+</table>
+
 3. Entrar no repositório local e validar o status da branch atual.
 
 ```bash
 cd repo-teste
 git status
 ```
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-```
+<table>
+  <tr>
+    <td>
+On branch main<br>
+Your branch is up to date with 'origin/main'.<br>
+<br>
+nothing to commit, working tree clean<br>
+    </td>
+  </tr>
+</table>
 
 ## Adicionando o repositório remoto a um projeto/paste local já existente.
 
