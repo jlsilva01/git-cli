@@ -49,13 +49,13 @@ Depois do repositório remoto criado, você pode utilzá-lo basicamente de duas 
 1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 2. Adicionando o repositório remoto a um projeto/paste local já existente.
 
-## Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
+## 1. Clonando o repositório remoto recém criado e atualizá-lo a partir do zero.
 
-1. Copiar a URL do repositório remoto.
+1.1. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-2. Executar o comando de `git clone` a partir da URL copiada.
+1.2. Executar o comando de `git clone` a partir da URL copiada.
 
 ```bash
 git clone https://github.com/jlsilva01/repo-teste.git
@@ -72,7 +72,7 @@ Receiving objects: 100% (3/3), done.<br>
   </tr>
 </table>
 
-3. Entrar no repositório local e validar o status da branch atual.
+1.3. Entrar no repositório local e validar o status da branch atual.
 
 ```bash
 cd repo-teste
@@ -89,9 +89,9 @@ nothing to commit, working tree clean<br>
   </tr>
 </table>
 
-## Adicionando o repositório remoto a um projeto/paste local já existente.
+## 2. Adicionando o repositório remoto a um projeto/paste local já existente.
 
-1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
+2.1. Inicializar a pasta local usando os comandos abaixo (caso não tenha sido inicializado ainda).
 
 ```bash
 git init
@@ -99,17 +99,17 @@ git add .
 git commit -m "build: setup inicial do projeto"
 git branch -M main
 ```
-2. Copiar a URL do repositório remoto.
+2.2. Copiar a URL do repositório remoto.
 
 ![image](https://github.com/user-attachments/assets/043f27a2-2fc3-4597-88b2-69f71e3a2e6a)
 
-3. Adicionar o repositório remoto a pasta local já inicializada.
+2.3. Adicionar o repositório remoto a pasta local já inicializada.
 
 ```bash
 git remote add origin https://github.com/jlsilva01/teste.git
 ```
 
-4. Efetuar o upload dos arquivos locais para o repositório remoto
+2.4. Efetuar o upload dos arquivos locais para o repositório remoto
 
 ```bash
 git push origin main
