@@ -5,7 +5,7 @@ Para criar um repositório no Github através do Git CLI, basta seguir os passos
 ```bash
 gh auth login
 ```
-<table style="font-size='10px'">
+<table style="font-size=10px">
   <tr>
     <td>
 ? What account do you want to log into? GitHub.com<br>
