@@ -1,6 +1,6 @@
-# Git CLI
+# Github CLI
 
-Para criar um repositório no Github através do Git CLI, basta seguir os passos abaixo:
+Para criar um repositório no Github através do Github CLI, basta seguir os passos abaixo:
 
 ```bash
 gh auth login
